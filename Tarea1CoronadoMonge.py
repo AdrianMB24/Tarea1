@@ -13,7 +13,7 @@ def basic_ops(operando_1,operando_2,operacion):
             resultado = operando_1 | operando_2
             return resultado
         else:
-            print ("operación inválida")
+            print ("operaciÃ³n invÃ¡lida")
 
 def array_ops(operando_1,operando_2,operacion):
     if len(operando_1) == len (operando_2):
@@ -24,4 +24,4 @@ def array_ops(operando_1,operando_2,operacion):
             resultado [i] = a
         return resultado
     else:
-        print ("Los arreglos no son del mismo tamaño")
+        print ("Los arreglos no son del mismo tamaÃ±o")
